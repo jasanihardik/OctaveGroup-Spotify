@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7570" started-at="2020-02-09T23:20:09Z" finished-at="2020-02-09T23:20:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7570" started-at="2020-02-09T23:20:09Z" finished-at="2020-02-09T23:20:16Z">
+      <class name="octaveGroup.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:octaveGroup.HomePage@44ebcd03]" name="initialize" is-config="true" duration-ms="3104" started-at="2020-02-09T23:20:09Z" finished-at="2020-02-09T23:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="landingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:octaveGroup.HomePage@44ebcd03]" name="landingPage" duration-ms="2532" started-at="2020-02-09T23:20:12Z" data-provider="getData" finished-at="2020-02-09T23:20:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testdata@9090]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[login Succesfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="landingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:octaveGroup.HomePage@44ebcd03]" name="landingPage" duration-ms="1793" started-at="2020-02-09T23:20:15Z" data-provider="getData" finished-at="2020-02-09T23:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imNotRegisteredUser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[677899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[login failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:octaveGroup.HomePage@44ebcd03]" name="TearDown" is-config="true" duration-ms="114" started-at="2020-02-09T23:20:16Z" finished-at="2020-02-09T23:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- octaveGroup.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
